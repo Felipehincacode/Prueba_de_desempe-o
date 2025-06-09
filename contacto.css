@@ -1,0 +1,86 @@
+.content_father{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+/* Sección de Reservas */
+.contacto {
+    transform: translateY(-10rem);
+    color: withe;
+    text-align: center;
+}
+.contacto h2{
+    font-family: "Special Elite", system-ui;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+/* Formulario de reservas */
+.contacto-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+}
+
+/* Grupos de campos del formulario */
+.form-group {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Estilos de los inputs */
+button {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.contacto button{
+  gap: 1rem;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Special Elite", system-ui;
+ 
+  
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+ 
+}
+
+
+.contacto button:hover{
+    
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  transform: scale(1.1);
+  transition:all .1s ease-in-out;
+    
+
+}
+
+#texto{
+    height: 200px;
+}
